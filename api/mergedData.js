@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/named
 import { getAuthorBooks, getSingleAuthor, deleteSingleAuthor } from './authorData';
 import { getSingleBook, deleteBook } from './bookData';
 
