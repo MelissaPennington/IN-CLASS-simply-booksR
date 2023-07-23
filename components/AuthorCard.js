@@ -11,6 +11,7 @@ function AuthorCard({ authorObj, onUpdate }) {
       deleteSingleAuthor(authorObj.firebaseKey).then(() => onUpdate());
     }
   };
+  console.warn(authorObj);
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
       <Card.Body>
